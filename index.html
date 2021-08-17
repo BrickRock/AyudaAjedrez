@@ -26,12 +26,25 @@
     <main>
         <h2>Ajedrez</h2>
         <div class="imagenOriginal">
-        <img src="images/ajedrez-original.jpg" alt="Se observa una fotografía de un tablero de Ajedrez">
+        <img  alt="Se observa una fotografía de un tablero de Ajedrez"
+                srcset="images/ajedrez600w.jpg 600w, 
+                images/ajedrez800w.jpg 800w, 
+                images/ajedrez2048w.jpg 2048w, 
+                images/ajedrez-original.jpg 1600w"
+                
+                sizes="(max-width: 1000px) 400px,
+                        (min-width: 1001px) and (max-width: 1800px) 1200px,
+                        (min-width: 1801px) 1500px,
+                        1400px"
+                        
+                        src="images/ajedrez-original.jpg">
         </div>
 
 
-        <p> Hola y bienvenidos a este pequeño proyecto <br>En este sitio se explica algunas cosas sobre el conocido juego de mesa del Ajedrez</p>
-        <p>¿Como se mueve una pieza?¿Qué reglas hay? estas preguntas se analizaran y daran respuesta, ademas de mencionar algunas jugadas muy conocidas con las que te puedes encontrar cuando juegues al Ajedrez</p>
+        <p> Hola y bienvenidos a este pequeño proyecto <br>En este sitio se explica algunas cosas 
+            sobre el conocido juego de mesa del Ajedrez</p>
+        <p>¿Como se mueve una pieza?¿Qué reglas hay? estas preguntas se analizaran y daran respuesta,
+             ademas de mencionar algunas jugadas muy conocidas con las que te puedes encontrar cuando juegues al Ajedrez</p>
     </main>
 </div> 
     <footer>
