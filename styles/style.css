@@ -38,7 +38,7 @@ h1{
      height: min-content;
      background-color: #615C5B;
  }
-/***************************************************************************Main ****************************************************/
+/************************************Main General****************************************************/
 
 h2{
     text-align: center;
@@ -60,6 +60,7 @@ border-color: black;
 border-style: solid;
 }
 
+
 .contenidoHome
 {
     overflow: hidden;
@@ -69,11 +70,35 @@ border-style: solid;
 p{
     margin-top: 40px;
 }
+
+figure figcaption
+    {
+        text-align: center;
+    }
+/*****************Main disposición horizontal************************/
+
+@media (orientation: landscape) {
+    figure{
+        width: 40%;
+        float: right;
+        
+    }
+    img{
+        width: 90%;
+        margin: 10px 0px;
+        border-width: 5px;
+        border-color: black;
+        border-style: solid;
+    }
+
+    
+}
+
 /*****************************************Main disposición vertical***************************************************************************/
 
 @media (orientation: portrait) {
     img{
-        width: 90%;
+        width: 100%;
         border-width: 2px;
         border-color: black;
         border-style: solid;
@@ -84,6 +109,10 @@ p{
     main{
             text-align: left;
             margin: 30px;
+        }
+        
+    figure{
+            margin: 10px 0px;
         }
 }
 
