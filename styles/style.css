@@ -77,6 +77,8 @@ figure figcaption
     }
 /*****************Main disposición horizontal************************/
 
+
+
 @media (orientation: landscape) {
     figure{
         width: 40%;
@@ -106,12 +108,12 @@ figure figcaption
     }
 
     .Movimientos{
-        background-color: gray;
+        background-color: #B9B8B7;
         overflow: hidden;
         color: white;
         margin: 10px;
         width: 100%;
-        border: 5px solid black;
+        padding: 2%;
     }
 
     .Movimientos p{
@@ -120,10 +122,32 @@ figure figcaption
         margin-right: 10%;
     }
 
+    p.DosImagenes{
+        text-align: center;
+        float: none;
+        margin: 0px;
+        width: 60%;
+        
+    }
+
     h3{
         text-align: center;
     }
 
+
+    @media (min-width: 1100px){
+        body{
+            font-size: 15pt;
+        }
+    }
+
+
+    @media (min-width: 1300px) {
+        body{
+            font-size: 25pt;
+        }
+    }
+    
     
 }
 
