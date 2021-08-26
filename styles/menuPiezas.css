@@ -1,0 +1,25 @@
+ul.MenuPiezas{
+    list-style: none;
+    padding: 0px;
+    text-align: center;
+    width: 80%;
+    margin: 0px 10%;
+    background-color: black;
+    color: white;
+    padding-top: 1px;
+    padding-bottom: 1px;
+
+}
+
+ul.MenuPiezas li{
+    padding: 25px 0px;
+    background-color: white;
+    margin: 20px;
+    float: none;
+}
+
+.pareja{
+    padding: 0px;
+    float: right;
+    width: 50%;
+}

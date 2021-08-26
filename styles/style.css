@@ -5,7 +5,7 @@ ul a{
     /*Estilos aplicados a los enlaces del menú de navegacíon*/
 }
 
-ul li{
+nav ul li{
     float: left;
     width: 30%;
     text-align: center;
@@ -13,7 +13,7 @@ ul li{
     /*Estilos aplicados a los li del menu de navegación*/
 }
 
-ul{
+nav ul{
     list-style: none;
 }
 
@@ -31,7 +31,7 @@ h1{
 
     padding-top: 5px;
 }
- ul{
+nav ul{
      
      padding: 20px;
      padding-bottom: 30px;
@@ -157,7 +157,7 @@ figure figcaption
         body{
             font-size: 20pt;
         }
-        ul{
+        nav ul{
             padding-bottom: 50px;
         }
     }
