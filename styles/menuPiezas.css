@@ -5,7 +5,6 @@ ul.MenuPiezas{
     width: 80%;
     margin: 0px 10%;
     background-color: black;
-    color: white;
     padding-top: 1px;
     padding-bottom: 1px;
 
@@ -13,13 +12,29 @@ ul.MenuPiezas{
 
 ul.MenuPiezas li{
     padding: 25px 0px;
-    background-color: white;
+    background-color: rgb(94, 90, 90);
     margin: 20px;
     float: none;
 }
 
-.pareja{
+ul.MenuPiezas li a{
+    color: white;
+}
+
+ul.DobleOpcion li{
+    float: left;
+    width: 45%;
+    margin: 0px 5% 0px 0px;
     padding: 0px;
-    float: right;
-    width: 50%;
+    
+}
+
+ul.DobleOpcion{
+    padding: 0px;
+    list-style: none;
+    width: 100%;
+}
+
+li.ContieneLista{
+    overflow: hidden;
 }
