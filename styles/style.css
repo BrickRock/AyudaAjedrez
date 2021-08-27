@@ -85,6 +85,9 @@ figure figcaption
         float: right;
         
     }
+
+    
+
     figure.imagenPieza img{
         width: 100%;
         margin: 10px 0px;
@@ -96,6 +99,13 @@ figure figcaption
     figure.explicacionJugada{
         width: 40%;
         float: left;
+    }
+
+    @media (max-width: 935px) {
+        figure.explicacionJugada{
+            width: 35%;
+            
+        }
     }
     figure.explicacionJugada img{
         width: 100%;
